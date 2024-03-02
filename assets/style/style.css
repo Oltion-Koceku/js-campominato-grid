@@ -1,0 +1,78 @@
+header{
+  height: 90px;
+  background-color: aquamarine;
+}
+
+footer{
+  height: 150px;
+  background-color: black;
+}
+
+.container-ol{
+  background-color: rgb(180, 139, 77);
+  height: 100%;
+}
+
+.box-gioco{
+  width: 802px;
+  height: 800px;
+  border: 1px solid black;
+  flex-wrap: wrap;
+}
+.facile{
+  width: calc(800px / 10);
+  height: calc(800px / 10);
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+.normale{
+  width: calc(800px / 9);
+  height: calc(800px / 9);
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+.difficile{
+  width: calc(800px / 7);
+  height: calc(800px / 7);
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.color-squere{
+  background-color: aqua;
+}
+
+.box-bomba{
+  background-color: red;
+}
+.game-over{
+  width: 802px;
+  height: 800px;
+  opacity: 0.5;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  position: absolute;
+}
+
+h3{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 100px;
+}
